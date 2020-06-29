@@ -114,7 +114,7 @@ regression.fit(features_train,labels_train)
 predictions = regression.predict(features_test)
 
 print 'R-square score: ',regression.score(features_test, labels_test)
-print 'MEA(mean absolute error): ',mean_absolute_error(labels_test, predictions)
+print 'MAE(mean absolute error): ',mean_absolute_error(labels_test, predictions)
 
 ################################################################################
 
